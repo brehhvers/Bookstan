@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    background-color:#B4CCA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 16vh;
+}
+
+#header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-logo{
+    height: 62px;
+    width: 62px;
+}
+
+#div-ul{
+    width: 30%;    
+}
+
+#ul-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    text-align: center;
+}
+
+aside{
+    width: 20%;
+    background-color: #314D24;
+    display: flex;
+    justify-content: center;
+    color: #B4CCA9;
+}
+
+#ul-aside{
+    list-style: none;
+    text-align: center;
+}
+
+#ul-aside li{
+    margin: 10% 0;
+}
+
+.div-aside{
+    padding: 20% 0 10% 0;
+}
+
+main{
+    width: 80%;
+    background-color: #774C75;
+    display: flex;
+    justify-content: center;
+    
+}
+
+article{
+    background-color: #CCA9CA;
+    margin: 5%;
+    padding: 5%;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.ul-books li{
+    margin: 10px 0;
+}
+
+.img-book{
+    float: right;
+    height: 20vh;
+    margin-left: 20px;
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.text-box{
+    padding: 2% 8%;
+    border: solid 1px #314D24;
+    background-color: #314D24;
+    border-radius: 50px 0 ;
+    transition: 0.2s;
+}
+
+.text-box::placeholder{
+    color: #B4CCA9;
+}
+
+.text-box:focus{
+    outline: none;
+    background-color: #B4CCA9;
+    transition: 0.1s;
+    box-shadow: 0px 0px 15px #774C75 !important;
+}
+
+.text-box:hover{
+    box-shadow: 5px 10px #774C75;
+}
+
+.text-box:focus::placeholder{
+    color: #314D24;   
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+   background-color: transparent;
+   border: none;
+   cursor:pointer;
+   margin-left: 10px;
+}
+
+.text-box-sugestion{
+    width: 100%;
+    background-color: transparent;
+    padding: 4% 8%;
+    margin: 20px 0px;
+    border: solid 1px #B4CCA9;
+    border-radius: 30px;
+    transition: 0.2s;
+
+}
+
+.text-box-sugestion::placeholder{
+    color: #B4CCA9;
+}
+
+.text-box-sugestion:focus{
+    outline: none;
+    transition: 0.1s;
+    transform: scale(1) !important;
+    box-shadow: 0px 0px 15px #B4CCA9 !important;
+    
+}
+
+.text-box-sugestion:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #B4CCA9 !important;
+
+}
+
+.text-box:focus::placeholder{
+    color: #314D24;   
+}
+
+.button-send{
+    background-color: #CCA9CA;
+    border: solid 1px #B4CCA9;
+    padding: 5px 10px;
+    color: #314D24;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.1s;
+}
+
+.button-send:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #B4CCA9 !important;
+}
